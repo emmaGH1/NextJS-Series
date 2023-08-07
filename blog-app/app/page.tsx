@@ -1,5 +1,9 @@
 import Posts from "./components/Posts"
 
+export const revalidate = 10
+const show = typeof revalidate
+console.log(show)
+
 export default function Home() {
   return (
     <main className="px-6 mx-auto">
